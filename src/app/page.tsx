@@ -1,14 +1,13 @@
-import Image from 'next/image'
-import { Inter } from 'next/font/google'
-import styles from './page.module.css'
+import Image from "next/image";
+import { Inter } from "next/font/google";
+import styles from "./page.module.css";
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
     <main className={styles.main}>
-      <div className={styles.description}>
-      </div>
+      <div className={styles.description}></div>
 
       <div className={styles.center}>
         <Image
@@ -18,13 +17,9 @@ export default function Home() {
           height={200}
         />
       </div>
-      <h2 className={inter.className}>
-           Welcome to 5minslearn!
-          </h2>
+      <h2 className={inter.className}>Welcome to 5minslearn?</h2>
 
       <div className={styles.center}>
-        
-
         <a
           href="https://5minslearn.gogosoon.com/?ref=github_nextjs_app"
           className={styles.card}
@@ -36,9 +31,7 @@ export default function Home() {
           </h2>
           <p className={inter.className}>Learn tech in 5mins</p>
         </a>
-
-        
       </div>
     </main>
-  )
+  );
 }
