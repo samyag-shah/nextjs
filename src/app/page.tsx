@@ -30,6 +30,9 @@ export default function Home() {
             5minslearn <span>-&gt;</span>
           </h2>
           <p className={inter.className}>Learn tech in 5mins</p>
+          <p className={inter.className}>
+            API IS {process.env.NEXT_PUBLIC_API}
+          </p>
         </a>
       </div>
     </main>
